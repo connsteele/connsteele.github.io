@@ -70,7 +70,8 @@ h1.blog {
     width: 80%;
     margin: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 a.blog {
