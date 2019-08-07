@@ -49,6 +49,15 @@ a:active {
     color: yellowgreen;
 }
 
+div.photo {
+    width: 85%;
+    margin: auto;
+}
+
+img.grid {
+    width: 300px;
+}
+
 /*** Blog Styles ***/
 
 div.blog {
