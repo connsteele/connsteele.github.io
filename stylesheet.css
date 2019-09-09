@@ -22,7 +22,6 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
 p {
     width: 85%;
     margin: auto;
@@ -95,4 +94,10 @@ a.blog:hover {
 
 a.blog:active {
     color: whitesmoke;
+}
+
+.centerImg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
