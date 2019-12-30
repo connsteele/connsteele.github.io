@@ -3,7 +3,7 @@
 
 <head>
 <!-- add a icon to the tab for this site -->
-<link rel="icon" href="/imgs/FE3H_Godess.png">
+<link rel="icon" href="imgs/FE3H_Godess.png">
 <!-- allow bootsrap navbar ability to collpase on mobile -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- link bootstrap 4 -->
@@ -14,11 +14,10 @@
 <title>Connor Steele</title>
 
 <body>
-<div class="upperdiv text-left" style="margin-bottom:0">
-    <h1>Connor Steele</h1>
-    <p>Welcome</p>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+<div id="myheader" class="upperdiv text-left" style="margin-bottom:0">
+    <h1 style="padding-left: 0.4rem;">Connor Steele</h1>
+    <nav class="navbar navbar-expand-sm navbar-dark" style="margin-bottom:0; padding-left: 0%; padding-top: 7rem;">
+        <!-- <a class="navbar-brand" href="#">Navbar</a>  -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,15 +32,28 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
             </ul>
         </div>
     </nav>
 </div>
 
 
+<script>
+    function myFunction() {
+        document.getElementById('myheader').style.backgroundColor = "#f3f3f3";
+        document.getElementById('myheader').style.backgroundImage = "url(imgs/snake.jpg)";
+    }
+    </script>
 
 <div>
     <p>Block text</p>
+    <button type="button" onclick="myFunction()">Set background image</button>
 </div>
 
 
@@ -56,3 +68,4 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 </footer>
+</html>
