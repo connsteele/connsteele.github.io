@@ -10,7 +10,7 @@ Theme: https://github.com/pages-themes/cayman<br>
     - Install Bundler: Open your terminal or command prompt and run `gem install bundler`
 
 2.  **Install Gems:**
-    - Run `bundle install` to install the required gems and dependencies listed in the Gemfil
+    - Run `bundle install` to install the required gems and dependencies listed in the Gemfile
     - Note if you have a webrick related error run `bundle add webrick`
 
 6.  **Run Jekyll locally**

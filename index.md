@@ -1,12 +1,10 @@
-# Connor Steele
-Portfolio Website for Connor Steele
+<!-- The text in the header is controlled in `_config.yml` -->
+# **Featured Projects**
 
-# Featured Projects
+[GMTK 2022 Game Jam](https://goatbeard.itch.io/born-to-die)<br>
+[Resume](./resources/Connor_2023.pdf)<br>
 
-[GMTK 2022 Game Jam](./another-page.html)<br>
-[Download PDF Test](./resources/Connor_2023.pdf)<br>
-
-## Links
+# **Links**
 ### Other Projects
 ### Professional Experince
-### About Me
+### [About Me](./pages/aboutMe.md)
