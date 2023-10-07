@@ -13,3 +13,10 @@
 ### [Projects](./pages/projects.md)
 ### [Professional Experince](./pages/professionalExperince.md)
 ### [About Me](./pages/aboutMe.md)
+
+<div class="navigation">
+        <a href="../"><img src=".././assets/home.png" alt="Home Navigation Icon" class="img-icon"></a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+</div>

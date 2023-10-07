@@ -333,9 +333,18 @@ body { background-color: #1a1a1a; }
 .main-content { text-align: center; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 { color: white; }
 .main-content a { color: #228da2; }
-.main-content .img-icon { max-width: 5%; min-width: 5%; }
+.main-content .img-icon { width: 50px; height: auto; }
 .main-content .img-portrait { max-width: 30%; }
 
 #home-video { max-width: 1280px; /* Set a maximum width for the video */ max-height: 720px; margin: 0 auto; /* Center the video horizontally */ border: 2px solid #0074d9; /* Add a border around the video */ border-radius: 5px; /* Round the corners of the video */ }
 
 .button-scroll { /* Add your custom styles here */ background-color: #9623a8; /* Change to your desired button color */ color: white; border: none; border-radius: 5px; padding: 10px 20px; /* Center-align the button horizontally */ display: block; margin: 0 auto; cursor: pointer; }
+
+/* Basic styling for the navigation section */
+.navigation { color: #fff; /* Text color */ padding: 10px 0; /* Padding for top and bottom */ text-align: center; /* Center-align the text */ font-size: x-large; }
+
+/* Styling for the navigation links */
+.navigation a { text-decoration: none; /* Remove underline from links */ margin: 0 20px; /* Add spacing between links */ vertical-align: middle; /* Center the text vertically */ }
+
+/* Style for hover effect on links */
+.navigation a:hover { text-decoration: underline; /* Underline links on hover */ }

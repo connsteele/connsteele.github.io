@@ -33,8 +33,10 @@ body {
 
     // Images
     .img-icon { 
-        max-width: 5%;
-        min-width: 5%;
+        width: 50px;
+        height: auto;
+        // max-width: 5%;
+        // min-width: 5%;
     }
     .img-portrait {
         max-width: 30%; 
@@ -63,4 +65,24 @@ body {
     display: block;
     margin: 0 auto;
     cursor: pointer;
+}
+
+/* Basic styling for the navigation section */
+.navigation {
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-align: center; /* Center-align the text */
+    font-size: x-large;
+}
+
+/* Styling for the navigation links */
+.navigation a {
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 20px; /* Add spacing between links */
+    vertical-align: middle; /* Center the text vertically */
+}
+
+/* Style for hover effect on links */
+.navigation a:hover {
+    text-decoration: underline; /* Underline links on hover */
 }
