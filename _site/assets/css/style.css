@@ -327,24 +327,26 @@ body { background-color: #1a1a1a; }
 .page-header { color: whitesmoke; text-align: center; background-color: #159957; background-image: linear-gradient(130deg, #228da2, #9623a8); }
 .page-header h1 { color: white; }
 
-@media screen and (min-width: 64em) { .page-header { padding: 3rem 6rem; } }
+@media screen and (min-width: 64em) { .page-header { padding: 2.5rem 6rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
-.main-content { text-align: center; }
+.main-content { max-width: 3840px; width: 65%; /* Navigation Styles */ /* Styling for the navigation links */ /* Style for hover effect on links */ }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 { color: white; }
 .main-content a { color: #228da2; }
-.main-content .img-icon { width: 50px; height: auto; }
-.main-content .img-portrait { max-width: 30%; }
+.main-content .img-home-nav { width: 45px; height: auto; }
+.main-content .img-portrait { width: 250px; height: auto; }
+.main-content .navigation-container { text-align: center; /* Center-align the content horizontally */ }
+.main-content .navigation { color: #fff; /* Text color */ padding: 10px 0; /* Padding for top and bottom */ text-align: center; /* Center-align the text */ font-size: x-large; /* Set nav item font size */ margin-bottom: 30px; /* Giver the nav bar extra room */ border-radius: 15px; /* Round background edges */ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Add a outer shadow */ display: inline-block; /* Display the navigation as an inline block element */ }
+.main-content .navigation a { text-decoration: none; /* Remove underline from links */ margin: 0 20px; /* Add spacing between links */ vertical-align: middle; /* Center the text vertically */ }
+.main-content .navigation a:hover { text-decoration: underline; /* Underline links on hover */ }
 
-#home-video { max-width: 1280px; /* Set a maximum width for the video */ max-height: 720px; margin: 0 auto; /* Center the video horizontally */ border: 2px solid #0074d9; /* Add a border around the video */ border-radius: 5px; /* Round the corners of the video */ }
+body { color: whitesmoke; }
 
-.button-scroll { /* Add your custom styles here */ background-color: #9623a8; /* Change to your desired button color */ color: white; border: none; border-radius: 5px; padding: 10px 20px; /* Center-align the button horizontally */ display: block; margin: 0 auto; cursor: pointer; }
+/* Container for image and text */
+.image-text-container { display: flex; align-items: center; /* Align text to vertical center of container */ margin: 0px; /* Adjust margin as needed */ }
 
-/* Basic styling for the navigation section */
-.navigation { color: #fff; /* Text color */ padding: 10px 0; /* Padding for top and bottom */ text-align: center; /* Center-align the text */ font-size: x-large; }
+/* Style for the image */
+.image-home { margin-right: 15px; /* Adjust margin as needed */ }
 
-/* Styling for the navigation links */
-.navigation a { text-decoration: none; /* Remove underline from links */ margin: 0 20px; /* Add spacing between links */ vertical-align: middle; /* Center the text vertically */ }
-
-/* Style for hover effect on links */
-.navigation a:hover { text-decoration: underline; /* Underline links on hover */ }
+/* Style for the text */
+.text-home { text-align: left; }

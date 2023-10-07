@@ -1,14 +1,17 @@
 ---
 layout: default
 title: Projects
-description: " "
+description: "Projects over the years"
 ---
 
-#### **Navigation**
-<!-- Image with a link to home written via HTML -->
-<a href="../">
-<img src=".././assets/home.png" alt="Home Navigation Icon" class="img-icon">
-</a>
+<div class="navigation-container">
+    <div class="navigation">
+            <a href="../"><img src=".././assets/home_hover.png" alt="Home Navigation Icon" class="img-home-nav"></a>
+            <a href="./projects.html">Projects</a>
+            <a href="./experience.html">Experience</a>
+            <a href="./contact.html">Contact</a>
+    </div>
+</div>
 
 
 # Turn Based Shooter
