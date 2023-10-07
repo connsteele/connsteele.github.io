@@ -22,7 +22,7 @@ body {
     text-align: center;
 
     // All Large Headers
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
         color: white;
     }
 
@@ -32,5 +32,35 @@ body {
     }
 
     // Images
-    img { max-width: 5%; }
+    .img-icon { 
+        max-width: 5%;
+        min-width: 5%;
+    }
+    .img-portrait {
+        max-width: 30%; 
+    }
+      
+}
+
+
+#home-video {
+    max-width: 1280px; /* Set a maximum width for the video */
+    max-height: 720px;
+    margin: 0 auto; /* Center the video horizontally */
+    border: 2px solid #0074d9; /* Add a border around the video */
+    border-radius: 5px; /* Round the corners of the video */
+  }
+  
+
+.button-scroll {
+    /* Add your custom styles here */
+    background-color: #9623a8; /* Change to your desired button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    /* Center-align the button horizontally */
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
 }
