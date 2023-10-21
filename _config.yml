@@ -1,5 +1,7 @@
 title: Connor Steele
-description: Software Engineer focused on gaming and graphics
-remote_theme: pages-themes/tactile@v0.2.0
+description: Software Engineer focused on games and computer graphics
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+github:
+  is_project_page: false # Disable generating the HTML github badge

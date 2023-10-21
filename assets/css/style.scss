@@ -1,0 +1,103 @@
+---
+---
+
+@import "{{ site.theme }}";
+body {
+        background-color: #1a1a1a;
+}
+.page-header {
+    color: whitesmoke;
+    text-align: center; 
+    background-color: #159957; 
+    background-image: linear-gradient(130deg, #228da2, #9623a8);
+    h1 {
+        color: white;
+    }
+}
+@media screen and (min-width: 64em) { .page-header { padding: 2.5rem 6rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
+@media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
+
+//------------------- All Pages -------------------
+.main-content {
+    //text-align: center;
+    max-width: 3840px;
+    width: 65%;
+
+    // All Large Headers
+    h1, h2, h3, h4 {
+        color: white;
+    }
+
+    // Text Links
+    a {
+        color: #228da2;
+    }
+
+    // Images
+    .img-home-nav { 
+        width: 45px;
+        height: auto;
+        //transition: transform 0.3s ease;
+    }
+
+    .img-portrait {
+        width: 250px;
+        height: auto;
+    }
+
+    /* Navigation Styles */
+
+    .navigation-container {
+        text-align: center; /* Center-align the content horizontally */
+    }
+
+    .navigation {
+        //width: 80%;
+        color: #fff; /* Text color */
+        padding: 10px 0; /* Padding for top and bottom */
+        text-align: center; /* Center-align the text */
+        font-size: x-large; /* Set nav item font size */
+        margin-bottom: 30px; /* Giver the nav bar extra room */
+        //border: 5px solid wheat;
+        border-radius: 15px; /* Round background edges */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Add a outer shadow */
+        display: inline-block; /* Display the navigation as an inline block element */
+    }
+
+    /* Styling for the navigation links */
+    .navigation a {
+        text-decoration: none; /* Remove underline from links */
+        margin: 0 20px; /* Add spacing between links */
+        vertical-align: middle; /* Center the text vertically */
+
+    }
+
+    /* Style for hover effect on links */
+    .navigation a:hover {
+        text-decoration: underline; /* Underline links on hover */
+    }
+}
+// General Text
+body {
+    color: whitesmoke;
+}
+
+//------------------- Home Page -------------------
+/* Container for image and text */
+.image-text-container {
+    display: flex;
+    align-items: center; /* Align text to vertical center of container */
+    margin: 0px; /* Adjust margin as needed */
+}
+
+/* Style for the image */
+.image-home {
+    margin-right: 15px; /* Adjust margin as needed */
+}
+
+/* Style for the text */
+.text-home {
+    text-align: left;
+}
+
