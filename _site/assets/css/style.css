@@ -335,6 +335,7 @@ body { background-color: #1a1a1a; }
 .main-content a { color: #228da2; }
 .main-content .img-home-nav { width: 45px; height: auto; }
 .main-content .img-portrait { width: 250px; height: auto; }
+.main-content .img-body { max-width: 65%; height: auto; border-radius: 10px; }
 .main-content .navigation-container { text-align: center; /* Center-align the content horizontally */ }
 .main-content .navigation { color: #fff; /* Text color */ padding: 10px 0; /* Padding for top and bottom */ text-align: center; /* Center-align the text */ font-size: x-large; /* Set nav item font size */ margin-bottom: 30px; /* Giver the nav bar extra room */ border-radius: 15px; /* Round background edges */ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Add a outer shadow */ display: inline-block; /* Display the navigation as an inline block element */ }
 .main-content .navigation a { text-decoration: none; /* Remove underline from links */ margin: 0 20px; /* Add spacing between links */ vertical-align: middle; /* Center the text vertically */ }
