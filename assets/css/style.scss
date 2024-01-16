@@ -44,12 +44,18 @@ body {
     .img-portrait {
         width: 250px;
         height: auto;
+        border-radius: 10px;
     }
 
     .img-body {
         max-width: 65%;
         height: auto;
         border-radius: 10px;
+    }
+
+    .img-sub-text {
+        color: gray;
+        margin-top: 8px;
     }
 
     /* Navigation Styles */

@@ -15,5 +15,5 @@ description: "Get in touch"
 
 
 
-# LinkedIn
-
+# <a href="https://www.linkedin.com/in/connor-steele-910138117/">LinkedIn</a>
+# Email: connsteele96@gmail.com
