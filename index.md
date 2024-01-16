@@ -7,7 +7,7 @@ description: ""
 
 <div class="navigation-container">
     <div class="navigation">
-            <a href="../"><img src=".././assets/home_hover.png" alt="Home Navigation Icon" class="img-home-nav"></a>
+            <a href="../">Home</a>
             <a href="./pages/projects.html">Projects</a>
             <a href="./pages/experience.html">Experience</a>
             <a href="./pages/contact.html">Contact</a>
