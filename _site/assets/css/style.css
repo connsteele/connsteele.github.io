@@ -322,33 +322,49 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
+html { scroll-behavior: smooth; /* Enables smooth scrolling for all jump links */ }
+
 body { background-color: #1a1a1a; }
 
-.page-header { color: whitesmoke; text-align: center; background-color: #159957; background-image: linear-gradient(130deg, #228da2, #9623a8); }
+.page-header { position: fixed; width: 100%; /* Make it span the full width */ top: 0; /* Position it at the top of the page */ z-index: 1000; /* Ensure it appears above other content */ color: whitesmoke; text-align: center; background-color: #159957; background-image: linear-gradient(130deg, #018771, #018771); }
 .page-header h1 { color: white; }
 
-@media screen and (min-width: 64em) { .page-header { padding: 2.5rem 6rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
-@media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
-.main-content { max-width: 3840px; width: 65%; /* Navigation Styles */ /* Styling for the navigation links */ /* Style for hover effect on links */ }
+.project-name { text-align: left; font-size: xx-large; }
+
+.header-wrapper { display: flex; /* Create a flexbox layout */ justify-content: space-between; /* Distribute elements evenly */ align-items: center; /* Align elements vertically */ padding: 0rem .2rem; /* Add padding for visual balance */ }
+
+.header-right { display: flex; /* Create a flexbox layout for the right section */ align-items: center; /* Center the links vertically */ gap: 1rem; /* Add space between divs */ }
+
+.jump-links, .redirect-links { display: flex; /* Create a flexbox layout */ gap: 0rem; /* Add space between navigation items */ }
+
+.jump-links ul, .redirect-links ul { display: flex; /* Arrange navigation items horizontally */ gap: 1.25rem; /* add a gap between list items */ }
+
+.jump-links ul li, .redirect-links ul li { list-style: none; /* Remove list markers */ }
+
+.jump-links ul li a { font-size: x-large; color: whitesmoke; }
+
+.btn-centered { padding: 0.75rem 1rem; /* Adds consistent padding for balance */ border: 1px solid #fff; /* Adds a white border */ border-radius: 5px; /* Adds rounded corners */ background-color: transparent; /* Sets a transparent background */ color: whitesmoke; /* Sets text color */ text-decoration: none; /* Removes underline */ display: inline-flex; /* Creates a flexbox container */ align-items: center; /* Centers content vertically */ justify-content: center; /* Centers content horizontally */ cursor: pointer; /* Changes cursor to a pointer on hover */ transition: background-color 0.3s; /* Adds a transition for background color */ }
+
+.btn-centered:hover { background-color: #02ac90; /* Changes background color on hover */ }
+
+@media screen and (min-width: 20em) { .page-header { padding: 0.0rem 2rem; } }
+@media screen and (max-width: 42em) { .page-header { padding: 0.0rem 0.5rem; } }
+.main-content { max-width: 3840px; width: 65%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 { color: white; }
 .main-content a { color: #228da2; }
 .main-content .img-home-nav { width: 45px; height: auto; }
 .main-content .img-portrait { width: 250px; height: auto; border-radius: 10px; }
 .main-content .img-body { max-width: 65%; height: auto; border-radius: 10px; }
 .main-content .img-sub-text { color: gray; margin-top: 8px; }
-.main-content .navigation-container { text-align: center; /* Center-align the content horizontally */ }
-.main-content .navigation { color: #fff; /* Text color */ padding: 10px 0; /* Padding for top and bottom */ text-align: center; /* Center-align the text */ font-size: x-large; /* Set nav item font size */ margin-bottom: 30px; /* Giver the nav bar extra room */ border-radius: 15px; /* Round background edges */ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Add a outer shadow */ display: inline-block; /* Display the navigation as an inline block element */ }
-.main-content .navigation a { text-decoration: none; /* Remove underline from links */ margin: 0 20px; /* Add spacing between links */ vertical-align: middle; /* Center the text vertically */ }
-.main-content .navigation a:hover { text-decoration: underline; /* Underline links on hover */ }
 
 body { color: whitesmoke; }
 
-/* Container for image and text */
-.image-text-container { display: flex; align-items: center; /* Align text to vertical center of container */ margin: 0px; /* Adjust margin as needed */ }
+.home { justify-content: center; /* Center the container horizontally */ align-items: center; /* Center the container vertically */ min-height: 100vh; /* Ensure the container fills the screen height */ }
 
-/* Style for the image */
-.image-home { margin-right: 15px; /* Adjust margin as needed */ }
+@media screen and (min-width: 20em) { .home { font-size: large; } }
+@media screen and (max-width: 42em) { .home { font-size: medium; } }
+.welcome { width: 100%; text-align: left; padding-top: 12rem; }
 
-/* Style for the text */
-.text-home { text-align: left; }
+.experince-home, .projects-home { width: 100%; text-align: left; padding-top: 8rem; }
+
+.home h1 { text-align: center; }

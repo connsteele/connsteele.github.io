@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Experience
-description: "Professional work and skill"
+description: "Professional Work and Skills"
 ---
 
 <div class="navigation-container">
@@ -9,7 +9,7 @@ description: "Professional work and skill"
             <a href="../">Home</a>
             <a href="./projects.html">Projects</a>
             <a href="./experience.html">Experience</a>
-            <a href="./contact.html">Contact</a>
+            <a href="./pages/about.html">About</a>
     </div>
 </div>
 

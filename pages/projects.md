@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-description: "Projects over the years"
+description: "Projects Over the Years"
 ---
 
 <div class="navigation-container">
@@ -9,7 +9,7 @@ description: "Projects over the years"
             <a href="../">Home</a>
             <a href="./projects.html">Projects</a>
             <a href="./experience.html">Experience</a>
-            <a href="./contact.html">Contact</a>
+            <a href="./pages/about.html">About</a>
     </div>
 </div>
 
