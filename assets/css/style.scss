@@ -47,7 +47,7 @@ body {
 .header-right {
     display: flex; /* Create a flexbox layout for the right section */
     align-items: center; /* Center the links vertically */
-    gap: 1rem; /* Add space between divs */
+    gap: 0rem; /* Add space between divs */
 }
 
 .jump-links, .redirect-links {
@@ -55,9 +55,14 @@ body {
     gap: 0rem; /* Add space between navigation items */
 }
 
-.jump-links ul, .redirect-links ul {
+.jump-links ul {
     display: flex; /* Arrange navigation items horizontally */
-    gap: 1.25rem; /* add a gap between list items */
+    gap: 1.5rem; /* add a gap between list items */
+}
+
+.redirect-links ul {
+    display: flex; /* Arrange navigation items horizontally */
+    gap: 0.5rem; /* add a gap between list items */
 }
 
 .jump-links ul li, .redirect-links ul li {
@@ -87,6 +92,7 @@ body {
 .btn-centered:hover {
     background-color: #02ac90; /* Changes background color on hover */
 }
+
 
 // large screens
 @media screen and (min-width: 20em) { .page-header { padding: 0.0rem 2rem; } }
@@ -163,7 +169,7 @@ body {
 }
 
 
-.experince-home, .projects-home {
+.welcome, .experince-home, .projects-home {
     width: 100%;
     text-align: left;
     padding-top: 8rem;
@@ -173,4 +179,20 @@ body {
 
 .home h1 {
     text-align: center;
+    font-weight: bold; 
+}
+
+.flex-container {
+    display: flex;  /* Establishes a flexbox layout */
+    justify-content: space-between;  /* Distributes space between children */
+    align-items: center;  /* Vertically aligns children in the middle */
+}
+
+.flex-container h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.learn-more {
+    color:#018771;
 }
