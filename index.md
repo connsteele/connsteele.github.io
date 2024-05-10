@@ -11,7 +11,7 @@ description: ""
         <h2>Software engineer experienced in computer graphics and API development.</h2> 
     </div>
     <div class="experince-home" id="experience">
-        <h1>Experience</h1>
+        <h1><a href="./pages/experience.html">Experience</a></h1>
         <h2>Professional</h2>
         <hr>
         <!-- Want a part to the right with more info on what I did in the role (what tech I used etc) -->
@@ -21,7 +21,7 @@ description: ""
         </div>
         <div class="flex-container">
             <p>Product: <a href="https://www.techsoft3d.com/products/hoops/visualize">HOOPS Visualize</a></p>
-            <p><a href="">Learn More</a></p>
+            <p><a href="./pages/experience.html#SEII_TS3D">Learn More</a></p>
         </div>
         <hr>
         <div class="flex-container">
@@ -30,7 +30,7 @@ description: ""
         </div>
         <div class="flex-container">
             <p>Product: <a href="https://www.techsoft3d.com/products/hoops/visualize">HOOPS Visualize</a></p>
-            <p><a href="">Learn More</a></p>
+            <p><a href="./pages/experience.html#SEI_TS3D">Learn More</a></p>
         </div>
         <hr>
         <div class="flex-container">
@@ -39,7 +39,7 @@ description: ""
         </div>
         <div class="flex-container">
             <p>Product: <a href="https://www.techsoft3d.com/products/hoops/communicator">HOOPS Communicator</a></p>
-            <p><a href="">Learn More</a></p>
+            <p><a href="./pages/experience.html#intern">Learn More</a></p>
         </div>
         <br>
         <h2>Education</h2>
@@ -53,7 +53,8 @@ description: ""
         </div>
     </div>
     <div class="projects-home" id="projects">
-        <h1>Projects</h1>
+        <h1><a href="./pages/projects.html">Projects</a></h1>
+        <p style="text-align: center;"><a href="./pages/projects.html">See more</a></p>
         <br>
         <br>
         <br>
@@ -83,6 +84,5 @@ description: ""
         <br>
         <br>
         <br>
-        
     </div>
 </div>

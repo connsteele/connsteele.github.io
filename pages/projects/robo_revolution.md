@@ -1,17 +1,11 @@
 ---
-layout: default
+layout: custom_nested_projects
 title: Robo Revolution
 description: " "
 ---
 
-<div class="navigation-container">
-    <div class="navigation">
-            <a href="../../">Home</a>
-            <a href="../projects.html">Projects</a>
-            <a href="../experience.html">Experience</a>
-            <a href="../contact.html">Contact</a>
-    </div>
-</div>
+<br>
+<br>
 
 # Overview
 A unique mix of first person shooting and turn based tactics. Robo Revolution was developed during my time at California Polytechnic State University San Luis Obispo for CSC 476 Real-time Computer Graphics Software. My role on the game was leading and manging a team of three other developes as well as assisting in game design and programming.<br>

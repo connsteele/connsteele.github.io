@@ -331,6 +331,8 @@ body { background-color: #1a1a1a; }
 
 .project-name { text-align: left; font-size: xx-large; }
 
+.project-name a { text-align: left; font-size: xx-large; color: white; }
+
 .header-wrapper { display: flex; /* Create a flexbox layout */ justify-content: space-between; /* Distribute elements evenly */ align-items: center; /* Align elements vertically */ padding: 0rem .2rem; /* Add padding for visual balance */ }
 
 .header-right { display: flex; /* Create a flexbox layout for the right section */ align-items: center; /* Center the links vertically */ gap: 0rem; /* Add space between divs */ }
@@ -358,6 +360,7 @@ body { background-color: #1a1a1a; }
 .main-content .img-portrait { width: 250px; height: auto; border-radius: 10px; }
 .main-content .img-body { max-width: 65%; height: auto; border-radius: 10px; }
 .main-content .img-sub-text { color: gray; margin-top: 8px; }
+.main-content .project-video { max-width: 65%; height: auto; border-radius: 0px; }
 
 body { color: whitesmoke; }
 
@@ -370,6 +373,10 @@ body { color: whitesmoke; }
 .welcome, .experince-home, .projects-home { width: 100%; text-align: left; padding-top: 8rem; }
 
 .home h1 { text-align: center; font-weight: bold; }
+
+.home h1 a { color: white; }
+
+.strong-center { text-align: center; font-weight: bold; }
 
 .flex-container { display: flex; /* Establishes a flexbox layout */ justify-content: space-between; /* Distributes space between children */ align-items: center; /* Vertically aligns children in the middle */ }
 
