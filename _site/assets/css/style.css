@@ -383,3 +383,5 @@ body { color: whitesmoke; }
 .flex-container h3, p { margin: 0; padding: 0; }
 
 .learn-more { color: #018771; }
+
+.footer-links { width: 100%; /* Ensures the container spans the full width of the footer */ display: flex; /* Establishes a flex container */ justify-content: space-between; /* Distributes space between the links */ }

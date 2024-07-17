@@ -217,3 +217,10 @@ body {
 .learn-more {
     color:#018771;
 }
+
+//------------------- Nested Pages -------------------
+.footer-links {
+    width: 100%; /* Ensures the container spans the full width of the footer */
+    display: flex; /* Establishes a flex container */
+    justify-content: space-between; /* Distributes space between the links */
+}
