@@ -44,9 +44,9 @@ description: ""
     <h1>Software Engineer @ Tech Soft 3D</h1>
     <hr>
     <h2>Tenure</h2>
+    <p>March 2020 - October 2022 | Promoted to <a href="#SEII_TS3D">Software Engineer II</a></p>
     <h2>Product</h2>
     <p><a href="https://www.techsoft3d.com/products/hoops/visualize">HOOPS Visualize</a></p>
-    <p>March 2020 - October 2022 | Promoted to <a href="#SEII_TS3D">Software Engineer II</a></p>
     <h2>Overview</h2>
     <li>Port and test dozens of build scripts from Python 2 to Python 3</li>
     <h2>Skills</h2>
@@ -65,15 +65,42 @@ description: ""
     <p><a href="https://www.techsoft3d.com/products/hoops/communicator">HOOPS Communicator</a> and 
     <a href="https://www.techsoft3d.com/products/hoops/visualize">HOOPS Visualize</a></p>
     <h2>Overview</h2>
-    <li>Test</li>
+    <li>Temp</li>
     <h2>Skills</h2>
 </div>
 
-<div>
+<div id="education">
     <br>
     <br>
     <br>
     <h1 class="strong-center">Education</h1>
+    <h1>B.S. Computer Science</h1>
+    <h2>California Polytechnic State University, San Luis Obispo</h2>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </div>
 
 
